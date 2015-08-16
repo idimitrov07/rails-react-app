@@ -46,7 +46,7 @@ end
 #additional gems
 gem 'bootstrap-sass', '~> 3.3.5'
 gem 'react-rails', '~> 1.0'
-gem 'thin'
+gem 'puma'
 gem 'pg'
 
 group :production do
