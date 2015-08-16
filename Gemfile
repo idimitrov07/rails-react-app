@@ -43,5 +43,6 @@ group :development, :test do
   gem 'spring'
 end
 
-
+#additional gems
 gem 'bootstrap-sass', '~> 3.3.5'
+gem 'react-rails', '~> 1.0'
