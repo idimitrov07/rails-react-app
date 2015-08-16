@@ -1,7 +1,9 @@
 Rails.application.routes.draw do
 
   resources :records
+  #root to: 'pages#home'
   root to: 'records#index'
+  post '/' => 'records#create'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
